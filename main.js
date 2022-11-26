@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
       } = event;
 
       let myHeaders = new Headers();
-      const key = config.SECRET_API_KEY;
+      const key = secrets.SECRET_API_KEY;
       myHeaders.append("apikey", key);
 
       const requestOptions = {
